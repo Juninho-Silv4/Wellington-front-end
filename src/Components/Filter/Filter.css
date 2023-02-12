@@ -1,0 +1,78 @@
+/*Configuração da barra de busca*/
+
+.buscador {
+    margin-top: 50px;
+    display: block;
+    width: 100%;
+}
+
+.area_busca{
+    margin-bottom: 30px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.barra_de_busca{
+    background-color:white;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height: 40px;
+    width: 300px;
+    border-radius: 12px;
+
+}
+
+.btnBusca {
+    width: 150px;
+    margin-left: 15px;
+    text-align: center;
+    display: inline-block;
+    position: absolute;
+}
+
+/*Config da barra de filtragem*/
+
+.area_filtragem {
+    width: 600px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.texto{
+    color: black;
+    background-color: white;
+    width: 100px;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.texto_principal {
+    display: block;
+    margin: 10px 0 10px 10px;
+    line-height: 32px;
+    width: 185px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.texto_caracteristica {
+    display: inline-block;
+    margin: 5px 0 5px 10px;
+    line-height: 22px;
+    width: 152px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.descricao {
+    margin-bottom: 30px;
+}
+
+.area_artefatos{
+    width: auto;
+}
